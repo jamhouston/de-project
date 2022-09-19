@@ -1,0 +1,6 @@
+---
+  BUFFER_TABLE_NAME: 'event_buffer'
+  BUFFER_SOURCE_COLUMN: 'id,type,user-agent,ip,customer-id,timestamp,product,position,page'
+  BUFFER_TARGET_COLUMN: 'id,type,user_agent,ip,customer_id,timestamp,product,position,page'
+  SCHEMA_PATH: './sql/schema.sql'
+  LOAD_PROCESS_PATH: './sql/load_process.sql'
